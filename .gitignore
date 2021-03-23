@@ -1,0 +1,11 @@
+env/
+.idea/
+node_modules
+*.pyc
+npm-debug.log
+tmp/
+.cache
+**/settings_compiled.py
+
+venv
+db.sqlite3
