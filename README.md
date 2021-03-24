@@ -1,16 +1,15 @@
 # eprescription v1.0.0
 Django Eprescription software v1.0.0
 
-You can bootstrap your next django project with command
+Create Virtualevn env and Activate  venv
 
-> django-admin.py startproject --template=-e "ini,yml,conf,json" yoursite
+> virtualenv -p python3.7 venv && source venv/bin/activate
 
-You can use Fabric to deploy your project to any docker supported env.
+Install requirements
 
-> fab build deploy
+> pip3 install -r project/requirements.txt
 
 You can run local development environment with 
 
-> docker-compose up
+> python3 manage.py runserver
 
-You can make a pull request if you like project and ready to help with documentation.
